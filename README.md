@@ -16,6 +16,20 @@ hrmpf is a live system that can be burned to CD or written directly to a USB sti
 
 ## Features
 
+### Additional Features
+- Memtest86+ for memory testing
+- ZFS support
+- Easily installable additional software via XBPS
+- Support for non-Linux extra images (only via ISOLINUX):
+  - iPXE
+  - FreeDOS
+  - MHDD32 hard disk analysis
+  - Bare GRUB 2
+- Can be burned to CD or written directly to USB stick
+- Option to load into RAM
+- Bootable as MEMDISK or via netboot.xyz
+- Clean Bash as default shell without annoying configuration
+
 ### Tools and Applications
 
 #### Diagnostic Tools
@@ -332,7 +346,7 @@ hrmpf is a live system that can be burned to CD or written directly to a USB sti
 - `mtools` - Tools to manipulate MS-DOS files
 - `nbd` - Network Block Device client and server
 - `ntfs-3g` - NTFS driver support
-- `nvme-cli` - NVMe tools
+- `nvme-cli` - NVME tools
 - `nwipe` - Securely wipes disks
 - `open-iscsi` - Open-iSCSI initiator
 - `partclone` - Filesystem-based partition clone tools
@@ -607,20 +621,6 @@ hrmpf is a live system that can be burned to CD or written directly to a USB sti
 - `brltty` - Access to the Linux console for blind users
 - `espeakup` - eSpeak speech output daemon
 - `void-live-audio` - Audio tools for live systems
-
-### Additional Features
-- Memtest86+ for memory testing
-- ZFS support
-- Easily installable additional software via XBPS
-- Support for non-Linux extra images (only via ISOLINUX):
-  - iPXE
-  - FreeDOS
-  - MHDD32 hard disk analysis
-  - Bare GRUB 2
-- Can be burned to CD or written directly to USB stick
-- Option to load into RAM
-- Bootable as MEMDISK or via netboot.xyz
-- Clean Bash as default shell without annoying configuration
 
 ## Minimum Requirements
 
